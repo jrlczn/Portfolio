@@ -47,7 +47,7 @@ class ProjectGrid extends StatelessWidget {
             'Flutter Portfolio',
             'A flutter portfolio.',
             ['Flutter', 'Dart'],
-            'https://github.com/yourusername/inventory-system',
+            'https://github.com/jrlczn/Portfolio',
           ),
         ];
 
