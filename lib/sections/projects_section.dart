@@ -25,10 +25,10 @@ class ProjectGrid extends StatelessWidget {
           (
             'assets/reddit.png',
             'Completed',
-            '1 weeks',
+            '1 week',
             'reddit clone app',
             'A project for cloning the app using flutter.',
-            ['HTML', 'CSS', 'Responsive'],
+            ['Flutter', 'Dart'],
             'https://github.com/jrlczn/reddit',
           ),
           (

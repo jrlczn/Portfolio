@@ -7,14 +7,14 @@ class SkillGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final skills = [
-      (Icons.phone_android, "Flutter & Dart", "Mobile Development", 0.30),
-      (Icons.cloud, "JavaScript", "Backend Services", 0.55),
+      (Icons.phone_android, "Flutter & Dart", "Mobile Development", 0.50),
+      (Icons.cloud, "JavaScript", "Backend Services", 0.30),
       (Icons.link, "CSS", "Design", 0.88),
-      (Icons.code, "Git & GitHub", "Version Control", 0.92),
-      (Icons.design_services, "HTML", "Integration", 0.80),
+      (Icons.code, "Git & GitHub", "Version Control", 0.80),
+      (Icons.design_services, "HTML", "Integration", 0.40),
       (Icons.storage, "SQLite", "Database", 0.75),
-      (Icons.cloud_queue, "Node.js", "Backend", 0.70),
-      (Icons.bug_report, "Python", "Programming", 0.78),
+      (Icons.cloud_queue, "Node.js", "Backend", 0.50),
+      (Icons.bug_report, "Python", "Programming", 0.50),
     ];
 
     return Wrap(

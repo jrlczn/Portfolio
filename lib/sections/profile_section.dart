@@ -67,7 +67,7 @@ class ProfileSection extends StatelessWidget {
 
             // Short description
             Text(
-              'Just learning Flutter and enjoying the process one project at a time.',
+              'Motto: Fake it till you make it.',
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 height: 1.5,

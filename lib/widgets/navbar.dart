@@ -70,8 +70,8 @@ class _NavbarState extends State<Navbar> {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 300),
       color: isDark
-          ? const Color(0xFF12153D)
-          : const Color.fromARGB(255, 20, 16, 83),
+          ? const Color.fromARGB(255, 151, 4, 170)
+          : const Color.fromARGB(255, 218, 40, 173),
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -17,7 +17,12 @@ class AppTheme {
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
     primaryColor: Colors.blue,
-    scaffoldBackgroundColor: const Color(0xFF0A0E23), // deep navy background
+    scaffoldBackgroundColor: const Color.fromARGB(
+      255,
+      13,
+      43,
+      194,
+    ), // deep navy background
     cardColor: const Color(0xFF0D1B2A), // darker blue for cards
     iconTheme: const IconThemeData(color: Colors.white),
     textTheme: const TextTheme(
